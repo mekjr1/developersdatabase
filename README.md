@@ -19,7 +19,7 @@ The Spring Framework, one of the many powerful frameworks in the Java ecosystem,
 
 ![Spring Framework](imgs/1.jpg)
 
-In this tutorial, we will take the challenge of building a simple application that will act as a database of [software developers](https://www.toptal.com/software?__hstc=753710.67ddff2fc6ddee3f9b11c576bddebab8.1550135023566.1550135023566.1550135023566.1&__hssc=753710.1.1550135023566&__hsfp=75600521) using Spring Framework and the Java Persistence API (JPA).
+In this tutorial, we will take the challenge of building a simple application that will act as a database of [software developers] using Spring Framework and the Java Persistence API (JPA).
 
 The application follows a standard MVC architecture. It will have a controller (ContractsController class), views (based on Thymeleaf templates), and a model (a Java map object). For the sake of simplicity, we will use an in-memory database behind JPA to persist data while the application is running.
 
@@ -34,7 +34,7 @@ In this tutorial, we will use Maven. If you are not familiar with either of thes
 
 In Spring Tool Suite, we create a new project by selecting “Spring Starter Project” from under the “File > New” menu.
 
-![Spring Framework Tutorial]((imgs/2.jpg))
+![Spring Framework Tutorial](imgs/2.jpg)
 
 Once a new project has been created, we will need to edit the Maven configuration file, “_pom.xml_”, and add the following dependencies:
 
@@ -320,7 +320,7 @@ In our application, we will need two simple templates. For clarity, we will skip
 
 #### Developer List
 
-![]((imgs/3.jpg))
+![](imgs/3.jpg)
 
 ```java
 <!DOCTYPE HTML>
@@ -371,7 +371,7 @@ In our application, we will need two simple templates. For clarity, we will skip
 
 #### Developer Details
 
-![]((imgs/4.jpg))
+![](imgs/4.jpg)
 
 ```java
 <!DOCTYPE HTML>
